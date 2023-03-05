@@ -1,4 +1,5 @@
 :root {
+    --white: #ffffff;
     --red: hsl(0, 100%, 74%);
     --green: hsl(154, 59%, 51%);
     --blue: hsl(248, 32%, 49%);
@@ -16,12 +17,24 @@
 body {
     font-size: 16px;
     font-family: var(--font);
-    background: var(--red);
-    height: 100vh;
-    width: 100vw;
+    background-image: url(./img/bg-intro-desktop.png);
+    background-color: var(--red);
+    height: 100%;
+    width: 100%;
 }
 
-.img {
-    height: 98%;
-    width: 99.5%;
+.container {
+    display: grid;
+    margin: 15rem 0 10rem 8.8rem;
+}
+
+.container__title {
+    color: var(--white);
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 24px;
+}
+
+.container__text {
+    color: var(--white);
 }
