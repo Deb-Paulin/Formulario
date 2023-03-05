@@ -1,0 +1,15 @@
+.container {
+    display: grid;
+    margin: 15rem 0 10rem 8.8rem;
+}
+
+.container__title {
+    color: var(--white);
+    font-size: 40px;
+    line-height: 44px;
+    padding-bottom: 24px;
+}
+
+.container__text {
+    color: var(--white);
+}

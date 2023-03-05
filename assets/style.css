@@ -1,5 +1,8 @@
+@import url(./styles/text.css);
+@import url(./styles/form.css);
+
 :root {
-    --white: #ffffff;
+    --white: hsl(4, 0%, 98%);
     --red: hsl(0, 100%, 74%);
     --green: hsl(154, 59%, 51%);
     --blue: hsl(248, 32%, 49%);
@@ -21,20 +24,4 @@ body {
     background-color: var(--red);
     height: 100%;
     width: 100%;
-}
-
-.container {
-    display: grid;
-    margin: 15rem 0 10rem 8.8rem;
-}
-
-.container__title {
-    color: var(--white);
-    font-size: 40px;
-    line-height: 44px;
-    padding-bottom: 24px;
-}
-
-.container__text {
-    color: var(--white);
 }
