@@ -7,7 +7,21 @@
     --font: 'Poppins', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-size: 16px;
     font-family: var(--font);
+    background: var(--red);
+    height: 100vh;
+    width: 100vw;
+}
+
+.img {
+    height: 98%;
+    width: 99.5%;
 }
