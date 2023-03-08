@@ -24,14 +24,15 @@
     display: grid;
     justify-content: space-evenly;
     margin: -27rem 0 0 45rem;
-    padding: 40px;
+    padding: 40px 40px 70px 40px;
     width: 36%;
+    
     border-radius: 10px;
     background-color: var(--white);
 }
 
 .form__field {
-    padding: 14px 50px;
+    padding: 14px 108px;
     margin-bottom: 20px;
     border: 1px solid var(--grayish-blue);
     border-radius: 3px;
@@ -46,5 +47,27 @@
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
-    word-spacing: 0.3em;
+}
+
+.finale {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: -64px 10px 10px 39rem;
+}
+
+.finale__notice, .finale__terms {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.finale__notice {
+    color: var(--grayish-blue);
+    padding-top: 10px;
+}
+
+.finale__terms {
+    color: var(--red);
+    margin-top: 10px;
+    padding-left: 4px;
 }
