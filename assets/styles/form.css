@@ -30,9 +30,21 @@
     background-color: var(--white);
 }
 
-.field {
+.form__field {
     padding: 14px 50px;
     margin-bottom: 20px;
     border: 1px solid var(--grayish-blue);
     border-radius: 3px;
+}
+
+.form__send {
+    background-color: var(--green);
+    color: var(--white);
+    padding: 16px 80px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    word-spacing: 0.3em;
 }
