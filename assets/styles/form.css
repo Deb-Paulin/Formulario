@@ -38,6 +38,14 @@
     border-radius: 3px;
 }
 
+.form__field::placeholder {
+    color: var(--dark-blue);
+    position: absolute;
+    left: 20px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
 .form__send {
     background-color: var(--green);
     color: var(--white);
